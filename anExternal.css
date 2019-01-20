@@ -1,9 +1,35 @@
-body {background-color:whitesmoke}
-        h1 {font-family:'Courier New', Courier, monospace, Geneva, Tahoma, sans-serif; font-size:700%; color:black;}
-        p {font-size:x-large;font-family: 'Courier New', Courier, monospace;}
-        img {float: right;}
-        #rcorners1 {border-radius: 25px;background:olivedrab;padding: 40px; width: 480px;height: 640px;  }
-        .center {padding:70px 0;text-align: center}
+        body {
+           background-color:whitesmoke
+        }
+        
+        h1 {
+           font-family:'Courier New', Courier, monospace, Geneva, Tahoma, sans-serif; 
+           font-size:700%; 
+           color:black;
+        }
+        
+        p {
+           font-size:x-large;
+           font-family: 'Courier New', Courier, monospace;
+        }
+        
+        img {
+           float: right;
+        }
+        
+        #rcorners1 {
+           border-radius: 25px;
+           background:olivedrab;
+           padding: 40px; 
+           width: 480px;
+           height: 640px;  
+        }
+        
+        .center {
+           padding:70px 0;
+           text-align: center
+        }
+        
         .container {
           position: relative;
           text-align: center;
@@ -20,10 +46,20 @@ body {background-color:whitesmoke}
           transform: translate(-50%, -50%);
         }
                        
-            li {float: left;}
+        li {
+           float: left;
+        }
             
-            li a {display: inline-block;color: ghostwhite;text-align: center;padding: 14px 16px;text-decoration: none;}
+        li a {
+           display: inline-block;
+           color: ghostwhite;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+        }
             
-            li a:hover {background-color:black;}
+        li a:hover {
+           background-color:black;
+        }
             
             .active {background-color:black;}
