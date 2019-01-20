@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Sitong's Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="anExternal.css">
     <style>
         body {background-color:whitesmoke}
@@ -11,6 +13,23 @@
         #rcorners1 {border-radius: 25px;background:olivedrab;padding: 40px; width: 480px;height: 640px;  }
         .center {padding:70px 0;text-align: center}
     </style>
+    <style>
+        .container {
+          position: relative;
+          text-align: center;
+          color: black;
+          float:right;
+          font-family: fantasy;
+          font-size:xx-large;
+        }
+        
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        </style>
     <style>
                        
             li {float: left;}
@@ -34,9 +53,11 @@
     <body>
         <h1 style="color:black;">welcome :)</h1>
         <p style="outline-style: dotted;">&#9829; &#9824; &#9827; &#9830;   &#9829; &#9824; &#9827; &#9830;   &#9829; &#9824; &#9827; &#9830;  &#9829; &#9824; &#9827; &#9830;   &#9829; &#9824; &#9827; &#9830;   &#9829; &#9824; &#9827; &#9830;  &#9829; &#9824; &#9827; &#9830;   &#9829; &#9824; &#9827; &#9830;   &#9829; &#9824; &#9827; &#9830;   &#9829; &#9824;</p>
-        <a href="https://www.pinterest.com/pin/452259987567290839/">
-            <img src="https://i-h1.pinimg.com/564x/8d/d7/c6/8dd7c675aa647ec93e02309b23028058.jpg" title="green things" style="width:480px;height:640px;margin:20px">
-        </a>
+        
+        <div class="container">
+            <img src="https://i-h1.pinimg.com/564x/8d/d7/c6/8dd7c675aa647ec93e02309b23028058.jpg" alt="green" style="width:480px;height:640px;margin:20px;">
+            <div class="centered"><b>GREEN</b></div>
+          </div>
         <p id="rcorners1">
             This is an element with rounded border corners<br>
             <br>
